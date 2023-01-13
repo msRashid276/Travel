@@ -1,0 +1,38 @@
+
+
+ body{
+   background-color:bisque;
+ }
+ .con1{
+     background-image: url('https://photos.smugmug.com/Blog-Photos/i-hTWr6gJ/1/307b0e7a/XL/8E6254AC-1F66-42AB-9ACD-9658EB4F7550-XL.jpg');background-repeat: no-repeat;background-size: cover;width: 250px;height: 350px;padding-top: 20px;
+    
+}
+.con2{
+    background-image: url('https://www.australia.com/content/australia/en_in/facts-and-planning/about-australia/the-aussie-way-of-life/_jcr_content/imagePortrait.adapt.740.medium.jpg');background-repeat: no-repeat;background-size: cover;width: 250px;height: 350px;padding-top: 20px;
+}
+.con3{
+    background-image: url('https://www.australia.com/content/australia/en_in/facts-and-planning/about-australia/cities-states-and-territories/_jcr_content/imagePortrait.adapt.740.medium.jpg');background-repeat: no-repeat;background-size: cover;width: 250px;height: 350px;padding-top: 20px;
+}
+.con4{
+    background-image: url('https://www.australia.com/content/australia/en_in/facts-and-planning/about-australia/history-of-australia/_jcr_content/imagePortrait.adapt.740.medium.jpg');background-repeat: no-repeat;background-size: cover;width: 250px;height: 350px;padding-top: 20px;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 400px;
+    width: 100%;   
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* margin-top: 50px;    */
+}
+.img1{
+    transition: 1s; 
+}
+.img1:hover{
+    transform: scale(1.1);
+}
